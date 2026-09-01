@@ -2,7 +2,8 @@
 
 public enum Resposta
 {
+    NaoRespondido,
     Sim,
-    Não,
-    NãoSei
+    Nao,
+    NaoSei
 }
