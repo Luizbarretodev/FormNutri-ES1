@@ -1,0 +1,6 @@
+@FormNutri_ES1_HostAddress = http://localhost:5266
+
+GET {{FormNutri_ES1_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
