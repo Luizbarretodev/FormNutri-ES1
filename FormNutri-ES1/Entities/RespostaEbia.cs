@@ -12,4 +12,9 @@ public class RespostaEbia
     public Resposta Pergunta6 { get; set; } = new();
     public Resposta Pergunta7 { get; set; } = new();
     public Resposta Pergunta8 { get; set; } = new();
+
+    public IEnumerable<Resposta> ListaRespostas()
+    {
+        return new[] { Pergunta1, Pergunta2, Pergunta3, Pergunta4, Pergunta5, Pergunta6, Pergunta7, Pergunta8 };
+    }
 }
