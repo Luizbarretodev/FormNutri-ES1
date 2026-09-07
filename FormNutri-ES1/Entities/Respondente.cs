@@ -8,6 +8,7 @@ public class Respondente
     public string RacaCor { get; set; } = string.Empty;
     public string Escolaridade { get; set; } = string.Empty;
     public string EstadoCivil { get; set; } = string.Empty;
+    public string Dependentes { get; set; }
     public string SituacaoEmprego { get; set; } = string.Empty;
     public bool RecebeBolsaFamilia { get; set; }
     public string Religiao { get; set; } = string.Empty;
