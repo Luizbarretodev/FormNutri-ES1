@@ -5,12 +5,12 @@ namespace FormNutri_ES1.DTOs;
 public class MarcadorConsumoDto
 {
     public List<string> RefeicoesRealizadas { get; set; } = new();
-    public Resposta UsoTelaRefeicoes { get; set; } = new();
-    public Resposta ConsumoFeijao { get; set; } = new();
-    public Resposta ConsumoFrutas { get; set; } = new();
-    public Resposta ConsumoVerduras { get; set; } = new();
-    public Resposta ConsumoEmbutidos { get; set; } = new();
-    public Resposta ConsumoBebidasAdocadas { get; set; } = new();
-    public Resposta ConsumoMiojo { get; set; } = new();
-    public Resposta ConsumoDoces { get; set; } = new();
+    public string UsoTelaRefeicoes { get; set; } = string.Empty;
+    public string ConsumoFeijao { get; set; } = string.Empty;
+    public string ConsumoFrutas { get; set; } = string.Empty;
+    public string ConsumoVerduras { get; set; } = string.Empty;
+    public string ConsumoEmbutidos { get; set; } = string.Empty;
+    public string ConsumoBebidasAdocadas { get; set; } = string.Empty;
+    public string ConsumoMiojo { get; set; } = string.Empty;
+    public string ConsumoDoces { get; set; } = string.Empty;
 }
