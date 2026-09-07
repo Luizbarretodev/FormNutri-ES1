@@ -5,5 +5,5 @@ public enum Resposta
     NaoRespondido,
     Sim,
     Nao,
-    NaoSei
+    NaoSabe
 }
